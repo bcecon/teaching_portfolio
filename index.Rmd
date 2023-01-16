@@ -1,0 +1,34 @@
+---
+title: "Data Analytics<br>School of Business, SUNY Geneseo"
+output: 
+  html_document
+---
+
+### data analytics at suny geneseo
+
+- *data visualization* and *machine learning* for *business* and *economics* with *python* and *r* 
+- *databases* with *sql* 
+- *dashboards* and *machine learning projects on the web* with *r markdown*
+- *web scrapping* and *automation* with *python selenium*
+- *version control* with *git* and *github*  
+
+<br>
+
+<div style="width:600px; height:450px">
+![](figures/spooky-data.gif)
+</div>
+
+<br><br>
+<br><br>
+
+<div style="width:600px; height:350px">
+![](figures/correlation_causation.jpg)
+</div>
+
+<br><br>
+<br><br>
+
+&nbsp;&nbsp; *ggplot halloween* originally from [andrew heiss](https://twitter.com/andrewheiss/status/1057682358135021568) and modified by byeong-hak choe
+
+
+
