@@ -16,7 +16,7 @@ output:
 
 <div style="width:600px; height:450px">
 ![](figures/spooky-data.gif)
-</div> 
+</div>
 
 <br><br>
 <br><br>
