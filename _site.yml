@@ -9,10 +9,6 @@ navbar:
     image: logo.png
     href: https://bcdanl.github.io
   right:
-    - text: "home"
-      href: index.html
-    - text: "résumé"
-      href: resume.html
     - text: "danl 100 lectures"
       menu:
         - text: "lecture 01"
@@ -73,7 +69,7 @@ navbar:
           href: lec/DANL100_Lec26_20221206.html
         - text: "lecture 27"
           href: lec/DANL100_Lec27_20221208.html
-    - text: "danl 100 homework"
+    - text: "danl 100 hw"
       menu:
         - text: "hw 1 questions"
           href: DANL100_hw1q.html
@@ -149,7 +145,7 @@ navbar:
           href: lec/DANL200_Lec26_20221206.html
         - text: "lecture 27"
           href: lec/DANL200_Lec27_20221208.html
-    - text: "danl 200 homework"
+    - text: "danl 200 hw"
       menu:
         - text: "hw 1 questions"
           href: DANL200_hw1q.html
@@ -167,6 +163,48 @@ navbar:
           href: DANL200_hw5a.html
         - text: "practice questions"
           href: DANL200_final_practice_fall_2022.html
+    - text: "danl 310 lectures"
+      menu:
+        - text: "lecture 04"
+          href: lec/DANL310_Lec04_20220208.html
+        - text: "lecture 05"
+          href: lec/DANL310_Lec05_20220210.html
+        - text: "lecture 06"
+          href: lec/DANL310_Lec06_20220215.html
+        - text: "lecture 07"
+          href: lec/DANL310_Lec07_20220217.html
+        - text: "lecture 08"
+          href: lec/DANL310_Lec08_20220222.html
+        - text: "lecture 09"
+          href: lec/DANL310_Lec09_20220224.html
+        - text: "lecture 10"
+          href: lec/DANL310_Lec10_20220301.html
+        - text: "lecture 11"
+          href: lec/DANL310_Lec11_20220303.html
+        - text: "lecture 12"
+          href: lec/DANL310_Lec12_20220324.html
+        - text: "lecture 13"
+          href: lec/DANL310_Lec13_20220331.html
+        - text: "lecture 14"
+          href: lec/DANL310_Lec14_20220405.html
+        - text: "lecture 14 practice"
+          href: lec/DANL310_Lec14_20220405_practice.html
+        - text: "lecture 15"
+          href: lec/DANL310_Lec15_20220407.html
+        - text: "lecture 16"
+          href: lec/DANL310_Lec16_20220414.html
+    - text: "danl 310 hw"
+      menu:
+        - text: "hw 1 answers"
+          href: DANL310_hw1_a.html
+        - text: "hw 2 answers"
+          href: DANL310_hw2_a.html
+        - text: "hw 4 answers"
+          href: DANL310_hw4a.html
+        - text: "midterm answers"
+          href: DANL310_midterm_a.html
+        - text: "midterm v2 answers"
+          href: DANL310_midterm_v2_a.html
 output:
   html_document:
     theme: journal

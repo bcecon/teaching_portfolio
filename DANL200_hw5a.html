@@ -11,11 +11,11 @@
 
 <meta name="author" content="Byeong-Hak Choe " />
 
-<meta name="date" content="2022-12-15" />
+<meta name="date" content="2023-01-16" />
 
 <title>DANL 200: Introduction to Data Analytics</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -281,8 +281,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -290,16 +290,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -428,13 +421,7 @@ div.tocify {
         
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="index.html">home</a>
-</li>
-<li>
-  <a href="resume.html">résumé</a>
-</li>
-<li class="dropdown">
+        <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     danl 100 lectures
      
@@ -532,7 +519,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    danl 100 homework
+    danl 100 hw
      
     <span class="caret"></span>
   </a>
@@ -658,7 +645,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    danl 200 homework
+    danl 200 hw
      
     <span class="caret"></span>
   </a>
@@ -689,6 +676,81 @@ div.tocify {
     </li>
   </ul>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    danl 310 lectures
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="lec/DANL310_Lec04_20220208.html">lecture 04</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec05_20220210.html">lecture 05</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec06_20220215.html">lecture 06</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec07_20220217.html">lecture 07</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec08_20220222.html">lecture 08</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec09_20220224.html">lecture 09</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec10_20220301.html">lecture 10</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec11_20220303.html">lecture 11</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec12_20220324.html">lecture 12</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec13_20220331.html">lecture 13</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec14_20220405.html">lecture 14</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec14_20220405_practice.html">lecture 14 practice</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec15_20220407.html">lecture 15</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec16_20220414.html">lecture 16</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    danl 310 hw
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="DANL310_hw1_a.html">hw 1 answers</a>
+    </li>
+    <li>
+      <a href="DANL310_hw2_a.html">hw 2 answers</a>
+    </li>
+    <li>
+      <a href="DANL310_hw4a.html">hw 4 answers</a>
+    </li>
+    <li>
+      <a href="DANL310_midterm_a.html">midterm answers</a>
+    </li>
+    <li>
+      <a href="DANL310_midterm_v2_a.html">midterm v2 answers</a>
+    </li>
+  </ul>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -703,7 +765,7 @@ Analytics</h1>
 <h3 class="subtitle">DANL 200 - Homework Assignment 5 - Example
 Answers<br><br></h3>
 <h4 class="author">Byeong-Hak Choe<br></h4>
-<h4 class="date">2022-12-15<br><br></h4>
+<h4 class="date">2023-01-16<br><br></h4>
 
 </div>
 
@@ -815,68 +877,52 @@ data.frame from Q1a.</p>
 ##                 53015                 19095</code></pre>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(beer_markets<span class="sc">$</span>market)</span></code></pre></div>
 <pre><code>## 
-##               ALBANY              ATLANTA            BALTIMORE 
-##                  487                 1279                  374 
-##           BIRMINGHAM               BOSTON    BUFFALO-ROCHESTER 
-##                 1137                  872                  607 
-##            CHARLOTTE              CHICAGO           CINCINNATI 
-##                 1246                 1879                 1270 
-##            CLEVELAND             COLUMBUS               DALLAS 
-##                 1226                 1862                 2098 
-##               DENVER           DES MOINES              DETROIT 
-##                  796                  716                 1731 
-##           EXURBAN NY         GRAND RAPIDS   HARTFORD-NEW HAVEN 
-##                  321                  739                  370 
-##              HOUSTON         INDIANAPOLIS         JACKSONVILLE 
-##                 1673                 1213                  501 
-##          KANSAS CITY          LITTLE ROCK          LOS ANGELES 
-##                  663                  452                 1564 
-##           LOUISVILLE              MEMPHIS                MIAMI 
-##                  833                  530                 2616 
-##            MILWAUKEE          MINNEAPOLIS            NASHVILLE 
-##                  728                  801                  989 
-##   NEW ORLEANS-MOBILE  OKLAHOMA CITY-TULSA                OMAHA 
-##                  852                  800                 1017 
-##              ORLANDO         PHILADELPHIA              PHOENIX 
-##                 1135                  433                 2263 
-##           PITTSBURGH         PORTLAND, OR       RALEIGH-DURHAM 
-##                  352                  552                 1126 
-##             RICHMOND        RURAL ALABAMA       RURAL ARKANSAS 
-##                 1063                  305                  160 
-##     RURAL CALIFORNIA       RURAL COLORADO        RURAL FLORIDA 
-##                  848                   21                  522 
-##        RURAL GEORGIA          RURAL IDAHO       RURAL ILLINOIS 
-##                  460                  154                 1195 
-##        RURAL INDIANA           RURAL IOWA         RURAL KANSAS 
-##                  481                 1060                  179 
-##       RURAL KENTUCKY      RURAL LOUISIANA          RURAL MAINE 
-##                  225                  381                  353 
-##       RURAL MICHIGAN      RURAL MINNESOTA    RURAL MISSISSIPPI 
-##                  754                  138                  354 
-##       RURAL MISSOURI        RURAL MONTANA       RURAL NEBRASKA 
-##                  640                  354                  110 
-##         RURAL NEVADA  RURAL NEW HAMPSHIRE     RURAL NEW MEXICO 
-##                  557                   25                  427 
-##       RURAL NEW YORK RURAL NORTH CAROLINA   RURAL NORTH DAKOTA 
-##                   13                  909                  129 
-##           RURAL OHIO       RURAL OKLAHOMA         RURAL OREGON 
-##                  257                   54                   38 
-##   RURAL PENNSYLVANIA RURAL SOUTH CAROLINA   RURAL SOUTH DAKOTA 
-##                  298                 1295                  153 
-##      RURAL TENNESSEE          RURAL TEXAS        RURAL VERMONT 
-##                  423                 1771                  139 
-##       RURAL VIRGINIA     RURAL WASHINGTON  RURAL WEST VIRGINIA 
-##                  185                  330                  265 
-##      RURAL WISCONSIN        RURAL WYOMING           SACRAMENTO 
-##                 1306                   39                  981 
-##       SALT LAKE CITY          SAN ANTONIO            SAN DIEGO 
-##                  320                 2615                  656 
-##        SAN FRANCISCO              SEATTLE            ST. LOUIS 
-##                  871                  903                 1347 
-##         SURBURBAN NY             SYRACUSE                TAMPA 
-##                  872                  294                 3180 
-##             URBAN NY        WASHINGTON DC 
-##                  735                  863</code></pre>
+##               ALBANY              ATLANTA            BALTIMORE           BIRMINGHAM 
+##                  487                 1279                  374                 1137 
+##               BOSTON    BUFFALO-ROCHESTER            CHARLOTTE              CHICAGO 
+##                  872                  607                 1246                 1879 
+##           CINCINNATI            CLEVELAND             COLUMBUS               DALLAS 
+##                 1270                 1226                 1862                 2098 
+##               DENVER           DES MOINES              DETROIT           EXURBAN NY 
+##                  796                  716                 1731                  321 
+##         GRAND RAPIDS   HARTFORD-NEW HAVEN              HOUSTON         INDIANAPOLIS 
+##                  739                  370                 1673                 1213 
+##         JACKSONVILLE          KANSAS CITY          LITTLE ROCK          LOS ANGELES 
+##                  501                  663                  452                 1564 
+##           LOUISVILLE              MEMPHIS                MIAMI            MILWAUKEE 
+##                  833                  530                 2616                  728 
+##          MINNEAPOLIS            NASHVILLE   NEW ORLEANS-MOBILE  OKLAHOMA CITY-TULSA 
+##                  801                  989                  852                  800 
+##                OMAHA              ORLANDO         PHILADELPHIA              PHOENIX 
+##                 1017                 1135                  433                 2263 
+##           PITTSBURGH         PORTLAND, OR       RALEIGH-DURHAM             RICHMOND 
+##                  352                  552                 1126                 1063 
+##        RURAL ALABAMA       RURAL ARKANSAS     RURAL CALIFORNIA       RURAL COLORADO 
+##                  305                  160                  848                   21 
+##        RURAL FLORIDA        RURAL GEORGIA          RURAL IDAHO       RURAL ILLINOIS 
+##                  522                  460                  154                 1195 
+##        RURAL INDIANA           RURAL IOWA         RURAL KANSAS       RURAL KENTUCKY 
+##                  481                 1060                  179                  225 
+##      RURAL LOUISIANA          RURAL MAINE       RURAL MICHIGAN      RURAL MINNESOTA 
+##                  381                  353                  754                  138 
+##    RURAL MISSISSIPPI       RURAL MISSOURI        RURAL MONTANA       RURAL NEBRASKA 
+##                  354                  640                  354                  110 
+##         RURAL NEVADA  RURAL NEW HAMPSHIRE     RURAL NEW MEXICO       RURAL NEW YORK 
+##                  557                   25                  427                   13 
+## RURAL NORTH CAROLINA   RURAL NORTH DAKOTA           RURAL OHIO       RURAL OKLAHOMA 
+##                  909                  129                  257                   54 
+##         RURAL OREGON   RURAL PENNSYLVANIA RURAL SOUTH CAROLINA   RURAL SOUTH DAKOTA 
+##                   38                  298                 1295                  153 
+##      RURAL TENNESSEE          RURAL TEXAS        RURAL VERMONT       RURAL VIRGINIA 
+##                  423                 1771                  139                  185 
+##     RURAL WASHINGTON  RURAL WEST VIRGINIA      RURAL WISCONSIN        RURAL WYOMING 
+##                  330                  265                 1306                   39 
+##           SACRAMENTO       SALT LAKE CITY          SAN ANTONIO            SAN DIEGO 
+##                  981                  320                 2615                  656 
+##        SAN FRANCISCO              SEATTLE            ST. LOUIS         SURBURBAN NY 
+##                  871                  903                 1347                  872 
+##             SYRACUSE                TAMPA             URBAN NY        WASHINGTON DC 
+##                  294                 3180                  735                  863</code></pre>
 <p><br><br></p>
 </div>
 <div id="q1c" class="section level2">

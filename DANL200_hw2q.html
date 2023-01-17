@@ -11,11 +11,11 @@
 
 <meta name="author" content="Byeong-Hak Choe " />
 
-<meta name="date" content="2022-12-13" />
+<meta name="date" content="2023-01-16" />
 
 <title>DANL 200: Introduction to Data Analytics</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -281,8 +281,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -290,16 +290,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -428,13 +421,7 @@ div.tocify {
         
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="index.html">home</a>
-</li>
-<li>
-  <a href="resume.html">résumé</a>
-</li>
-<li class="dropdown">
+        <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     danl 100 lectures
      
@@ -532,7 +519,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    danl 100 homework
+    danl 100 hw
      
     <span class="caret"></span>
   </a>
@@ -658,7 +645,7 @@ div.tocify {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    danl 200 homework
+    danl 200 hw
      
     <span class="caret"></span>
   </a>
@@ -689,6 +676,81 @@ div.tocify {
     </li>
   </ul>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    danl 310 lectures
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="lec/DANL310_Lec04_20220208.html">lecture 04</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec05_20220210.html">lecture 05</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec06_20220215.html">lecture 06</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec07_20220217.html">lecture 07</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec08_20220222.html">lecture 08</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec09_20220224.html">lecture 09</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec10_20220301.html">lecture 10</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec11_20220303.html">lecture 11</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec12_20220324.html">lecture 12</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec13_20220331.html">lecture 13</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec14_20220405.html">lecture 14</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec14_20220405_practice.html">lecture 14 practice</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec15_20220407.html">lecture 15</a>
+    </li>
+    <li>
+      <a href="lec/DANL310_Lec16_20220414.html">lecture 16</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    danl 310 hw
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="DANL310_hw1_a.html">hw 1 answers</a>
+    </li>
+    <li>
+      <a href="DANL310_hw2_a.html">hw 2 answers</a>
+    </li>
+    <li>
+      <a href="DANL310_hw4a.html">hw 4 answers</a>
+    </li>
+    <li>
+      <a href="DANL310_midterm_a.html">midterm answers</a>
+    </li>
+    <li>
+      <a href="DANL310_midterm_v2_a.html">midterm v2 answers</a>
+    </li>
+  </ul>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -702,7 +764,7 @@ div.tocify {
 Analytics</h1>
 <h3 class="subtitle">DANL 200 - Homework Assignment 2<br><br></h3>
 <h4 class="author">Byeong-Hak Choe<br></h4>
-<h4 class="date">2022-12-13<br><br></h4>
+<h4 class="date">2023-01-16<br><br></h4>
 
 </div>
 
