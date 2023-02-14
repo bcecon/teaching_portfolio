@@ -193,18 +193,18 @@ navbar:
           href: lec/DANL310_Lec15_20220407.html
         - text: "lecture 16"
           href: lec/DANL310_Lec16_20220414.html
-    - text: "danl 310 hw"
-      menu:
-        - text: "hw 1 answers"
-          href: DANL310_hw1_a.html
-        - text: "hw 2 answers"
-          href: DANL310_hw2_a.html
-        - text: "hw 4 answers"
-          href: DANL310_hw4a.html
-        - text: "midterm answers"
-          href: DANL310_midterm_a.html
-        - text: "midterm v2 answers"
-          href: DANL310_midterm_v2_a.html
+    # - text: "danl 310 hw"
+    #   menu:
+    #     - text: "hw 1 answers"
+    #       href: DANL310_hw1_a.html
+    #     - text: "hw 2 answers"
+    #       href: DANL310_hw2_a.html
+    #     - text: "hw 4 answers"
+    #       href: DANL310_hw4a.html
+    #     - text: "midterm answers"
+    #       href: DANL310_midterm_a.html
+    #     - text: "midterm v2 answers"
+    #       href: DANL310_midterm_v2_a.html
 output:
   html_document:
     theme: journal
